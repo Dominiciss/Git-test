@@ -48,15 +48,23 @@ git config --list
 
 ## Git comandos para repositorio
 
-![Git procedimiento](Git-procedimiento.png)
+![Git procedimiento](Git-procedimiento.png "Procedimiento git")
+
+**git clone url_repositorio_a_copiar**: clona el repositorio indicado en el tercer campo
+
+**git remote add origin url_repositorio**: define el origen al cual todos los git push van a ir destinados
+
+**git status**: muestra el estado actual del repositorio, incluyendo archivos modificados y sin seguimiento
 
 **git add**: agrega archivos al sistema de tracking de git (pasamos de untracked a tracked)
 
 **git commit -m "mensaje"**: empaqueta todos los cambios
 
-**git log**: muestra toda la informacion de los commits
+**git log**: muestra un registro de commits en orden cronologico inverso
 
-**git push origin rama**: sube los cambios al repositorio
+**git push origin nombre_rama**: sube los cambios al repositorio
+
+**git pull origin nombre_rama**: descarga los cambios del repositorio remoto y los fusiona con los cambios locales
 
 ## Generacion de llave SSH
 
