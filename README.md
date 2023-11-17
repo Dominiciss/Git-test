@@ -48,6 +48,8 @@ git config --list
 
 ## Git comandos para repositorio
 
+![Git procedimiento](Git-procedimiento.png)
+
 **git add**: agrega archivos al sistema de tracking de git (pasamos de untracked a tracked)
 
 **git commit -m "mensaje"**: empaqueta todos los cambios
