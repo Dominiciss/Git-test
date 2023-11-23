@@ -72,4 +72,4 @@ git config --list
 
 **eval "$(ssh-agent -s)"**: linkea la clave con la terminal
 
-**ssh-add ~/.ssh/id_rsa**: agrega los datos al agente de seguimiento
+**ssh-add ~/.ssh/id_rsa**: agrega los datos al agente de seguimiento 
