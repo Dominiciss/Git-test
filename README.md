@@ -62,6 +62,8 @@ git config --list
 
 **git log**: muestra un registro de commits en orden cronologico inverso
 
+**git fetch origin**: trae todos los datos de un repositorio
+
 **git push origin nombre_rama**: sube los cambios al repositorio
 
 **git pull origin nombre_rama**: descarga los cambios del repositorio remoto y los fusiona con los cambios locales
